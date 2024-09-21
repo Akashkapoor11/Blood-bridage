@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url(Blood-Bank11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 40s infinite ease-in-out;
+
+}
+#new h1{
+    color: black;
+}
+.item1{
+    height:90px;
+    width: 1530px;
+    list-style: none;
+}
+.item1 img{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item1 h1{
+    padding-left: 30px;
+    padding-top: 25px;
+    float: left;
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px ;
+}
+.bag li{
+    float: right;
+    list-style-type: none;
+    display: inline;   
+    text-indent: 10px;
+    padding-right: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: grey;
+    margin-top: 25px;
+    margin-right:40px;
+}
+.bag li a{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.bag li a:hover{
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+    background-color: red;
+    color:black;
+    height:300px;
+}
+#new{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+input{
+    border:3px solid green;
+    border-radius: 30px;
+    background-color:red;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover{
+    background-color:cornflowerblue;
+    cursor: pointer;
+    transition: 2s;
+}
+@keyframes change{
+    0%{
+        background-image: url(blood-bank14.jpg.jpg);
+    }
+    20%{
+        background-image: url(blood_bank12.jpg);
+    }
+    40%{
+        background-image: url(blood-bank13.jpg);
+    }
+    60%{
+        background-image: url(Blood-Bank11.jpg);
+    }
+    80%{
+        background-image: url(blood-bank15.webp);
+    }
+    100%{
+        background-image: url(blood-bank14.jpg.jpg);
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            background-image: url("mini project 3.jpg");
+            background-size: cover;  
+            height: 690px;     
+        }
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 40px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .regis{
+            text-align: center;
+        }
+        .regis input{
+            width:250px;
+            height:25px;
+        }
+        .bb button{
+            width: 100px;
+            height: 30px;
+            background-color:darkblue;
+            color:white;
+        }
+        a{
+            text-decoration: none;
+            color:yellow;
+        }
+        
+        #main h3 a:hover{
+            color: red;
+        }
+        #main{
+            margin:0px;
+            text-decoration: none;
+            width:1520px;
+            height:60px;
+            list-style: none;
+            
+        }
+        #main h3{
+            color:white;
+            float: left;
+            margin-left: 13px;
+            margin-top: 28px;
+        }
+        #main h3 a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        #main h3 a:hover{
+            color:red;
+        }
+        #main img{
+            float:left;
+            margin-left: 20px;
+            margin-top: 18px;
+        }
+        .btn:hover{
+            background-color:deeppink;
+            cursor: pointer;
+            transition: 1s;
+        }
+        #last {
+            font-weight: bold;
+            font-size: 17px;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="main">
+        <li><img src="WhatsApp Image 2024-01-19 at 10.23.15 AM.jpeg" width="60px" height="60px">
+        <h3><a href="indexminp1.html">Home</a></h3>
+    </header>
+    <h1>Register Now</h1>
+    <div class="regis">
+        <form action="fill">
+            <input type="text" placeholder="Name" required><br><br>
+            <input type="tel" placeholder="1111111111" pattern="[0-9]{10}"required><br><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+            <input type="password" placeholder="Password" minlength="8" maxlength="20"><br><br>
+            <input type="password" placeholder="Confirm Password" minlength="8" maxlength="20"><br>  
+    </div><br>
+    <div class="bb">
+        <center><a href="indexminip4.html"><button style="padding:6px 45px" value="Sign-Up" class="btn">signup</a></center>
+    </div><br>
+</form>
+<div id="last">
+    <center>Already Have a Account?<a href="indexminip2.html">Login</a></center>
+</div>
+       
+</body>
+</html>
