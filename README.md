@@ -1,4 +1,4 @@
-# Blood-bridage
+# BLOOD BRIGADE
 The Blood Bank Management is a web based application designed to efficiently manage and streamline the process of blood donation.
 This system allows hospitals, blood bank and donar to interact through a centralised platform , ensuring a smooth flow of information.
 It is  developed using HTML, CSS, php and Xampp for the backend database. 
